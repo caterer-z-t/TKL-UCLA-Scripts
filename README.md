@@ -1,7 +1,5 @@
 # TKL-UCLA-Scripts #
 
-P-Test Graph WIP
-
 for thorough walkthrough watch this youtube video
 - https://youtu.be/Aevvbb6DXcQ
 - https://youtu.be/7CVXwPNjW7U
@@ -173,7 +171,8 @@ Checking and Plotting Graphs with Statistical Significance
     * please enter the function (def finding_statistically_significant_groups(list_of_columns, p_value, dataframe_df):
     * plt.text((x1 + x2) * 0.5, y+h, f"p={p_value_test:.4f}", ha='center', va='bottom', color=col, rotation=45)
     * modify the line above to get the correct values
+    * Also, depending on the scaling factor of the graph, you will want to change the step size between p value lines
 
 
 
-    * 
+
