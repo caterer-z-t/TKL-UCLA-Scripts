@@ -28,7 +28,7 @@ Automated graphing file (jupyter notebook) to streamline graphing plate reader d
 1. Download any software to run Jupyter Notebook files
 
 - For Help Watch These Videos
-- (these videos are for installing anaconda)
+- (these videos are for installing anaconda and running jupyter notebook)
 - https://www.youtube.com/watch?v=XCvgyvBFjyM
 - https://www.youtube.com/watch?v=6kXLUvsnhuI
 - https://www.youtube.com/watch?v=sv0ca-6liM8
