@@ -32,6 +32,7 @@ Automated graphing file (jupyter notebook) to streamline graphing plate reader d
 - https://www.youtube.com/watch?v=XCvgyvBFjyM
 - https://www.youtube.com/watch?v=6kXLUvsnhuI
 - https://www.youtube.com/watch?v=sv0ca-6liM8
+- https://www.youtube.com/watch?v=Fw6VYgsbJ4o
 
 2. Set up and enter the virtual environment
 
