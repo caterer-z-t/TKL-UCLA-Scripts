@@ -8,34 +8,45 @@ for thorough walkthrough watch this youtube video
 
 Automated graphing file (jupyter notebook) to streamline graphing plate reader data (OD and fluorescence)
 
-## **Materials**
+## **First Time using Python**
 
-- Software
-    - Software to run jupyter notebook file
-    - Examples include (but not exclusive to):
-    - Visual Studio (https://code.visualstudio.com/) -- My favorite
-    - Anaconda (https://www.anaconda.com/download)
-    - Jupyter Notebook (https://jupyter.org/)
+- Download Jupyter notebook
+      - Visual Studio (https://code.visualstudio.com/)
+  -Once Installed, open application, in the terminal type the commands
+        -cd /path/to/my_project
+        -python3 -m venv venv (name of enviornment)
+        -source venv/bin/activate ##this activates the virtual environment, run this everytime to enter the virtual environment
+        -pip install package_name
+              -packages we are using are
+              -numpy
+              -pandas
+              -matplotlib
+              -seaborn
+              -beautifulsoup4
+              -scikit-learn
+              -math  
+        -deactivate ##to deactivate the virtual environment, do not do this until you are done graphing
+  -Once in a VE, open or create a .ipynb file
+        -to run a cell
+              -click the arrow (runs the cell)
+              -click 'shift' + 'return' (runs the cell and takes you to the next cell)
+              -click 'control' + 'return' (runs the cell and keeps you in the current cell)
+  -When ready, continue to next section
+
+## **Materials 
 - Files
+    - Virtual Environment (activated) 
     - Plate Reader Layout (file path)
     - Plate Reader Data (OD or Fluorescence) (file path)
-    - Jupyter Notebook File
+    - Jupyter Notebook File (.ipynb file)
 
 ## **Procedure**
 
-- Download and Set-up Jupyter Notebook
+1. Do some deep breathing exercises
+    
+2.  Set up and activate the virtual environment
 
-1. Download any software to run Jupyter Notebook files
-
-- For Help Watch These Videos
-- (these videos are for installing anaconda and running jupyter notebook)
-- https://www.youtube.com/watch?v=XCvgyvBFjyM
-- https://www.youtube.com/watch?v=6kXLUvsnhuI
-- https://www.youtube.com/watch?v=sv0ca-6liM8
-- https://www.youtube.com/watch?v=Fw6VYgsbJ4o
-
-2. Set up and enter the virtual environment
-
+- Follow the first time users guide 
 - For Help Watch This Video
 - (video uses anaconda)
 - https://www.youtube.com/watch?v=mIB7IZFCE_k
@@ -44,6 +55,7 @@ Automated graphing file (jupyter notebook) to streamline graphing plate reader d
 
 - Access this file from google shared drive
 - Shared Drive -> Researchers -> Zachary Caterer-> (file_name).ipynb
+- Github -> TKL-UCLA -> (file_name).ipynb
 
 4. Download this file to desktop and move this file into a folder that has the data which you will be analyzing
 
