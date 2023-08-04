@@ -9,28 +9,20 @@ for thorough walkthrough watch this youtube video
 Automated graphing file (jupyter notebook) to streamline graphing plate reader data (OD and fluorescence)
 
 ## **First Time using Python**
-
 - Download Jupyter notebook
-      - Visual Studio (https://code.visualstudio.com/)
-  -Once Installed, open application, in the terminal type the commands
-        -cd /path/to/my_project
-        -python3 -m venv venv (name of enviornment)
-        -source venv/bin/activate ##this activates the virtual environment, run this everytime to enter the virtual environment
-        -pip install package_name
-              -packages we are using are
-              -numpy
-              -pandas
-              -matplotlib
-              -seaborn
-              -beautifulsoup4
-              -scikit-learn
-              -math  
-        -deactivate ##to deactivate the virtual environment, do not do this until you are done graphing
-  -Once in a VE, open or create a .ipynb file
-        -to run a cell
-              -click the arrow (runs the cell)
-              -click 'shift' + 'return' (runs the cell and takes you to the next cell)
-              -click 'control' + 'return' (runs the cell and keeps you in the current cell)
+    - Visual Studio (https://code.visualstudio.com/)
+    - Once Installed, open application, in the terminal type the commands
+    - cd /path/to/my_project
+    - python3 -m venv venv (name of enviornment)
+    - source venv/bin/activate ##this activates the virtual environment, run this everytime to enter the virtual environment
+    - pip install package_name
+    - packages we are using are
+    - numpy, pandas, matplotlib, seaborn, scikit-learn, math
+    - deactivate ##to deactivate the virtual environment, do not do this until you are done graphing
+- Once in a VE, open or create a .ipynb file
+    - to run a cell
+    - -click the arrow (runs the cell), click 'shift' + 'return' (runs the cell and takes you to the next cell), click 'control' + 'return' (runs the cell and keeps you in the current cell)
+ 
   -When ready, continue to next section
 
 ## **Materials 
