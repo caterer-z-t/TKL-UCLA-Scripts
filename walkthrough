@@ -1,0 +1,92 @@
+This will be a walk through guide explaining the multiple plate reader data code and how to run it. 
+
+I will be assuming that you have worked with single plate reader data script, and you have python and/or
+jupyter installed, know how to set up virtual environments, and know how to run .ipynb files
+
+Step 1:
+  Downloading the file from github
+  file is titled "kamariza_lab_graphing_multiple_plate_reader_data.ipynb"
+
+Step 2:
+  Make sure you have all the necessary files
+  Layout files (saved as .csv, .txt)
+  data files (saved as .csv, .txt)
+
+Step 3:
+  Opening File in perferable Jupyter notebook while in a virtual environment
+
+Step 4:
+  Run the imports cell
+
+Step 5:
+  determine how many distinct plates you will be importing
+    if you have n number of plate, ensure that you are importing 2n files
+    determine the file path and input it into the correct position
+    also ensure that you are reading the correct number of plate and layouts
+
+  if you are reading n number of plates, in this cell you should have 4n lines of code
+
+Step 6:
+  Creating a dictionary of the plate data and layout that correspond to one another
+  Note this is 0 indexed
+  copy and paste "0: [df_plate_reader_layout_0, df_plate_reader_data_0]," for as many plates you have
+  ensure you change the number to correspond to the correct imported files
+
+Step 7:
+  Run all of the cells until step 8
+  these cells contain the functions that we will be using
+
+Step 8:
+  run the cell containing
+  "df = developing_new_df_from_multi_input_data(a_dict_of_all_data)"
+  this calls the function developing_new_df_from_multi_input_data using the input a_dict_of_all_data
+  which is the dictionary of all of the plate reader data and layout
+
+Step 9:
+  Visualize the dataframe by running the cell 
+  print(df)
+  visualize the column titles by the line
+  print(df.columns)
+  this will help in identifying misnamed columns
+
+Step 10:
+  in the list titled "similar_names" Identify all of the names (of the columns) that have been named
+  differently, but indeed they are the same
+  seperate these names by a comma
+
+  In the list "wanted_names" in the exact same order, identify all of the titles which you wish to have
+
+Step 11:
+  run the cell containing "df = renaming_columns_of_a_dataframe(df, similar_names, wanted_names)"
+  this uses the dataframe created in step 8, and the lists created in step 10, this cell will identify
+  all of the columns that are desired to be called the same, and rearranges the columns and renames 
+  the given column to what the user wished
+
+Step 12:
+  If you made dilutions and want to back calculate, continue, if not skip to step 13
+  identify the columns names that need to be adjusted, and add this to the list 
+  titled "columns_need_to_be_adjusted"
+  in the same order identify the dilution factor and write it in the form X:Y 
+  eg 1:10 = 10x, or 1:5 = 5x
+  also change the final volume in ml
+  next, run the cell containing "df = calculate_the_original_density(df,columns_need_to_be_adjusted, diluted_from_original_density, final_volume_in_ml)"
+
+Step 13:
+  following along identical to the single plate reader file, graph the data
+  will update with more complicated graphs
+  change the necessary details to get the desired graph(s)
+
+Step 14:
+  following along identical to the single plate reader file, graph the data with p values
+
+
+
+
+
+
+
+
+
+
+
+  
